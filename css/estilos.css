@@ -1,0 +1,279 @@
+body{
+	background:#03050a;
+  margin:0 auto;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "tlous";
+  src: url('../fonts/CastlePressNo2.ttf');
+}
+.tlousFont { 
+  color:#fff;
+  font-size: 4em;
+  font-family: "tlous";
+}
+
+header,nav,section,article,aside,footer{
+	display:block;
+}
+
+div#maior{
+	width:90%;
+  margin:0 auto;
+  padding: 0;
+}
+
+header {
+  text-align:center;
+  margin:auto;
+}
+
+header img{  
+  object-fit: cover;
+  object-position: top;	
+}
+
+.active{
+  color:#2a9e94 !important;
+}
+.logoTexto{
+  width: 100%;
+  height:80px; 
+  top:0px;
+  left: -50px;
+  overflow-x: hidden;
+  color:#fff;  
+  position:absolute;
+  opacity: 0.3; 
+  background-color: black;
+}
+
+@media (min-width: 600px) {
+  .logo {
+      width:450px;
+      height: 190px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:450px;   
+  }
+}
+
+@media (min-width: 800px) {
+  .logo {
+      width:650px;
+      height: 230px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:650px;   
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo {
+      width:800px;
+      height: 280px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:800px;   
+  }
+}
+
+@media (min-width: 1100px) {
+  .logo {
+      width:900px;
+      height: 320px;    
+  }
+  #menu, #telaprincipal, #rodape {
+    width:900px;   
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+      width:1000px;
+      height: 320px;
+  }
+  #menu, #telaprincipal, #rodape{
+    width:1000px;   
+  }
+}
+
+@media (min-width: 1300px) {
+  .logo {
+      width:1100px; 
+      height: 330px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:1100px;   
+  }
+}
+
+@media (min-width: 1500px) {
+  .logo {
+      width:1300px;  
+      height: 380px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:1300px;   
+  }
+}
+
+@media (min-width: 1600px) {
+  .logo {
+      width:1400px;
+      height: 410px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:1400px;   
+  }
+}
+
+@media (min-width: 1800px) {
+  .logo {
+      width:1600px; 
+      height: 430px;
+  }
+  #menu, #telaprincipal, #rodape {
+    width:1600px;   
+  }
+}
+
+@media (min-width: 2000px) {
+  .logo {
+      width:1800px;   
+      height: 480px;
+    }
+  #menu, #telaprincipal, #rodape {
+    width:1800px;   
+  }
+}
+
+#menu{
+	height:55px;
+	background:#0c1325;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-left: 0px;
+}
+
+#menu li{
+	list-style:none;
+  display: inline;
+}
+
+#menu a{
+  padding-left:28px;
+	color:#fff;
+	font-size:18px;
+	font-family:Calibri;
+	text-decoration:none;
+}
+
+#telaprincipal{
+  background-color:#141823;
+  height:auto;
+  margin:0 auto;
+  padding: 0;
+
+}
+
+#rodape{
+  height:55px;
+	background:#0c1325;
+  margin: 0 auto;
+  padding-top: 25px;
+  font-family:Calibri;
+  font-size: 18px;
+	color:#fff;
+  text-align: center;
+}
+
+.trailler{
+  color:#fff;
+  font-family: Calibri;
+  margin-bottom:10px;
+  padding-top:20px;
+  padding-left:30px;
+}
+
+.trailler p{
+  padding-top:5px;
+}
+
+.noticia{
+  color:#fff;
+  font-family: Calibri;
+  margin-bottom:10px;
+  padding-top:20px;
+  padding-left:30px;
+}
+
+.noticia p{
+  width:62%;
+  padding-top:5px;
+}
+
+.plataformas{
+  font-family: Calibri;
+  color:#2a9e94 !important;
+  padding: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.plataformas div{
+  display: inline; 
+  width: 30px;
+  height: 30px;
+  padding: 30px;
+  background-color: #fff;
+  cursor:pointer;
+  font-size:25px;
+}
+
+.plataformas div:hover{
+  display: inline; 
+  width: 30px;
+  height: 30px;
+  padding: 30px;
+  background-color: #2a9e94;
+  cursor:pointer;
+  color:#fff;
+}
+
+.sony{
+  display: none;
+}
+
+.microsoft{
+  display: none;
+}
+
+.nintendo{
+  display: none;
+}
+
+.generos{
+  display: none;
+}
+
+#aven{
+  display: none;
+}
+#est{
+  display: none;
+}
+#esp{
+  display: none;
+}
+#luta{
+  display: none;
+}
+#terror{
+  display: none;
+}
+#rpg{
+  display: none;
+}
