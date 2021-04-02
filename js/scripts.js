@@ -3,9 +3,7 @@ function trocar(){
   esconder("pNin");
   esconder('pMicro');
   esconder('pSony');
-  mostrar('aven');
   mostrar('esp');
-  mostrar('est');
   mostrar('luta');
   mostrar('terror');
   mostrar('rpg');
@@ -16,9 +14,7 @@ function voltar(){
   mostrar("pNin");
   mostrar('pMicro');
   mostrar('pSony');
-  esconder('aven');
   esconder('esp');
-  esconder('est');
   esconder('luta');
   esconder('terror');
   esconder('rpg');
