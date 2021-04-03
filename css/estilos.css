@@ -12,6 +12,9 @@ body{
   color:#fff;
   font-size: 4em;
   font-family: "tlous";
+  position:absolute; 
+  top:-55px;
+  right:200px; 
 }
 
 header,nav,section,article,aside,footer{
