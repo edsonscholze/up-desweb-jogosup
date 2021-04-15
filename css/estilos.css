@@ -1,6 +1,6 @@
 body{
 	background:#03050a;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -36,6 +36,11 @@ header img{
   object-fit: cover;
   object-position: top;	
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
 
 .active{
   color:#2a9e94 !important;
@@ -204,6 +209,43 @@ header img{
   padding-top:5px;
 }
 
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.review{
+  color:#fff;
+  font-family: Calibri;
+  margin-bottom:10px;
+
+  background-color: #01314a; 
+  margin-left: 30px; 
+  margin-right: 30px;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 20px;
+
+  transition: all 0.1s linear;
+}
+
+.review:hover {
+  transform: scale(1.02);
+}
+
+.review p{
+  padding-top: 5px;
+}
+
+.game-recomendation{
+  width: 60px;
+  height: 70px;
+  padding-left: 50px;
+}
+
 .noticia{
   color:#fff;
   font-family: Calibri;
@@ -279,4 +321,110 @@ header img{
 }
 #rpg{
   display: none;
+}
+
+.justificado{
+  text-align: justify;
+}
+
+.game-recommendation {
+  height: 300px;
+  width: 100%;
+}
+
+.recommendation-content {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 0 40px;
+  column-gap: 50px;
+}
+
+.game-image {
+  width: 100%;
+  height: 300px;
+  background-position-y: 27%;
+  background-position-x: 20%;
+}
+
+.game-comment {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  text-align: justify;
+  font-size: 16pt;
+  margin-top: 8pt;
+  justify-content: space-between;
+}
+
+#lastofus{
+  background: url(../imagens/the-last-of-us.jpg);
+}
+
+#godofwar{
+  background: url(../imagens/god-of-war.jpg);
+}
+
+#bloodborne{
+  background: url(../imagens/bloodborne.jpg);
+}
+
+#minecraft{
+  background: url(../imagens/minecraft.jpg);
+}
+
+#age{
+  background: url(../imagens/age.jpg);
+}
+
+#halowars{
+  background: url(../imagens/halo.jpg);
+}
+
+#zelda{
+  background: url(../imagens/zelda.jpg);
+}
+
+#luigis{
+  background: url(../imagens/luigi.jpg);
+}
+
+#pokemon{
+  background: url(../imagens/pokemon.jpg);
+}
+
+.aspas {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+  line-height: 16pt;
+}
+
+.user {
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.user-avatar {
+  border: 3px solid gray;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-name {
+  color: #C1DBF4;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.user-hours {
+  font-size: 10pt;
+  color: #8091A2;
 }
