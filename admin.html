@@ -34,7 +34,7 @@
   </nav>   
    
 
-  <div id="telaprincipal" style="margin-top: 0px; margin-bottom: -20px; height:830px; ">
+  <div id="telaprincipal" style="margin-top: 0px; margin-bottom: -20px; height:880px; ">
         
    <div class="noticia">
    <form method="post" action="/" name="salvar">
@@ -44,6 +44,15 @@
    <label>Título <pre></pre></label>
 	<input type="text" name="titulo">
   </p>
+  <p>
+    <label>Plataforma <pre></pre></label>
+    <select name="Plataforma" >
+      <option selected value=""> Selecione a plafaforma </option>
+      <option value="1">Microsoft </option>
+      <option value="2">Nintendo </option>
+      <option value="3">Sony</option>
+    </select>
+    </p>  
   <p>
     <label>Nota <pre></pre></label>
     <input type="number" name="nota">
@@ -60,7 +69,7 @@
 	<label>Texto <pre></pre></label>
 	<textarea name="texto" cols="80" rows="10"></textarea>
   <br><br>
-  <input style="margin-left:570px;" type="button" name="enviar" value="Salvar" />
+  <input type="button" name="enviar" value="Salvar" />
 </p>    
 <p >
 
